@@ -25,7 +25,7 @@ class Header extends Component {
       <nav className="navbar" role="navigation" aria-label="main navigation">
         <div className="container">
           <div className="navbar-brand">
-            <a className="navbar-item">MyCompany</a>
+            <Link to="/" className="navbar-item">MyCompany</Link>
             <button className={"button navbar-burger "+menuActive} onClick={this.handleClick}>
               <span></span>
               <span></span>
