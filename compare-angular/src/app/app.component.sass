@@ -1,0 +1,48 @@
+@import "../mq"
+
+.is-primary a
+  color:  #1EC9AC
+
+.navbar
+  background-color: #383838
+  a:hover
+    color: gray
+
+.navbar-brand a
+  color: #fff
+  font-weight: bold
+  +desktop
+    padding-left: 0
+
+a.r-item
+  color: #c1c1c1
+  padding: 0.5rem 1.75rem
+  background: transparent!important
+  &:hover
+    color: #f9f9f9
+  +mobile
+    color: gray!important
+    &:hover
+      background-color: #f1f1f1
+
+.navbar-menu.is-active a
+  &:hover
+    color: gray!important
+
+.button.is-primary
+    &:hover
+      color: #fff!important
+
+nav .navbar-burger, nav .navbar-burger.is-active
+  color: #1EC9AC!important
+  background-color: transparent
+  border: 0
+  box-shadow: none
+
+footer
+  background-color: $primary !important
+  color:  #fff
+
+  .icon
+    color: #fff
+    margin-left: 20px

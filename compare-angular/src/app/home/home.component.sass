@@ -1,0 +1,30 @@
+@import "../../mq"
+
+.hero
+  background: url('/assets/clouds.jpg')
+  background-size:  cover
+  animation: clouds 3s forwards
+
+  .title
+    +mobile
+      font-weight: bold
+    +tablet
+      font-size: 2.5rem
+    +desktop
+      font-size: 4rem
+      margin-top: 2rem
+
+h2
+  margin: 1.5rem 0 2rem 0!important
+
+#learn
+  +desktop
+    margin-bottom: 2rem
+
+
+.fa-cog
+  font-size: 40px
+
+.pd
+  +tablet
+    padding: 2em 0
